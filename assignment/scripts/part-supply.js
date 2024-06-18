@@ -63,7 +63,7 @@ else if(element < 0) {
   negatives.push(element);
 }
 else if (element === 0){
- zeroes.push(supplyChanges(element));
+ zeroes.push(element);
 }
 }
 
