@@ -50,15 +50,21 @@ console.log('added item 25 to end of array',supplyChanges);
 console.log('6. Looping through supplyChanges to populate arrays with positive, negative, and zero values:');
 
 let positives = [];
-let negatives = [];
+ let negatives = [];
 let zeroes = [];
 console.log('created 3 arrays', positives, negatives, zeroes, supplyChanges);
 
-supplyChanges.forEach(element) => {
-  if (element / 2 === 0 ){ positives.push(element)
-console.log(positives);
-
+// supplyChanges.forEach(element) => {
+  for (element of supplyChanges){
+  if (element > 0) {
+   positives.push(element);
   }
+else if(elelement < 0) {
+  negatives.push(element);
+}
+else if (element === 0){
+ zeroes.push(supplyChanges(element));
+}
 }
 
 
