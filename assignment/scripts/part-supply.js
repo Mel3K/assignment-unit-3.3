@@ -59,7 +59,7 @@ console.log('created 3 arrays', positives, negatives, zeroes, supplyChanges);
   if (element > 0) {
    positives.push(element);
   }
-else if(elelement < 0) {
+else if(element < 0) {
   negatives.push(element);
 }
 else if (element === 0){
